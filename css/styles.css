@@ -1,0 +1,299 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h1 {
+	font-size: 4.5rem !important
+}
+h2 {
+	font-size: 2.5rem !important;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+/* NavBar Section */
+.nav-pills .nav-link:hover {
+    background-color: black !important;
+    color: white !important; /* Ensures text remains visible */
+}
+
+/* Main Header */
+#home {
+	background-color: white;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.text_sameday {
+	text-align: center;
+	padding-bottom: 0%;
+	padding-top: 6%;
+}
+
+/* Scrolling Bar */
+.logo-container {
+	style="align-content: center;
+	width: 994px;
+	height: 200px;
+	margin-bottom: -300px;
+	left: -249px;
+	position: relative;
+	right: 0px;
+}
+.scroll-bar {
+	height: 150px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide the default scrollbar */
+}
+.scroll-container {
+	height: 650px;
+  width: 200%;
+  display: flex;
+  animation: scroll-horizontal 10s linear infinite;
+}
+.scroll-item {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-15%);
+  }
+}
+
+/* Service Section */
+#service{
+	text-align: center;
+
+}
+div.service-sec {
+	background-color: black;
+	padding-bottom: 5%
+}
+
+/* About Section */
+.our-store {
+
+	height: 750px;
+	background-color: red;
+}
+.store-text {
+	text-align: center;
+	color: white;
+}
+/* Store Image */
+.store-img {
+	width: 550px;
+  height: 420px;
+  position: relative;
+  padding-right: 0px;
+  margin-right: 0px;
+	border-radius: 3%;
+}
+/* Google Map  */
+.google-map {
+	position: relative;
+	border-radius: 3%;
+  height: 355px !important;
+}
+.contact-text {
+	color: white;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: larger;
+}
+.open-time {
+	color: white;
+	border-top-width: 25px;
+	margin-top: 35px;
+	font-family: sans-serif;
+	font-style: inherit;
+	font-size: x-large;
+	font-stretch: semi-expanded;
+}
+
+/* Gallery Section */
+#gallery {
+	background-color: white;
+}
+.gallery-header {
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	margin-bottom: 0px;
+}
+
+/* Slide Photos */
+.carousel-item {
+	width: 600px !important;
+	border-radius: 2%
+}
+.carousel-inner {
+	padding: 0% 20% 5% 25%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff0000; /* Replace with your desired color */
+  border-radius: 50%; /* Optional: Makes the arrow background circular */
+}
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: #ffffff; /* Change the arrow icon color */
+}
+
+/* Client Section */
+#clients {
+	padding: 0% 0% 5% 0%;
+	background-color: black;
+}
+
+/* Contact Section */
+#contact {
+	background-color: red;
+}
+.addr, .num, .mail {
+	font-size: 20px;
+}
+.contact-text {
+	padding-top: 30px;
+}
+
+/* Footer Section */
+#footer {
+	padding: 5% 0% 5% 0%;
+	background-color: black;
+}
+.social-icons {
+	text-align: center;
+}
+.fa-brands {
+	margin-right: 10px;
+}
+.footer-text {
+	color: white;
+	text-align: center;
+}
+
+/* Screen Size 768px */
+/* @media (max-width:768px) { */
+
+	/* About Section */
+	/* #service {
+		text-align: center;
+		width: 1280px;
+    margin-right: 17px;
+		padding-left: 17px;
+	}
+	.card-name{
+		width: 450px;
+	}
+	.our-store {
+		padding: 5% 0% 5% 0%;
+		height: 1200px;
+		background-color: red;
+		margin-top: 50px;
+	} */
+
+	/* Store Image */
+	/* .store-img {
+		width: 550px;
+	    height: 420px;
+	    position: relative;
+	    padding-right: 0px;
+	    margin-bottom: 50px;
+	    right: 0px;
+			border-radius: 3%;
+	} */
+
+	/* Google Map  */
+	/* .google-map {
+		position: relative;
+		border-radius: 3%;
+	}
+
+	.contact-text {
+		color: white;
+		font-family: sans-serif;
+		font-style: normal;
+		font-size: larger;
+	}
+
+	.open-time {
+		color: white;
+		border-top-width: 25px;
+		margin-top: 35px;
+		font-family: sans-serif;
+		font-style: inherit;
+		font-size: x-large;
+		font-stretch: semi-expanded;
+
+	} */
+
+	/* Gallery Section */
+	/* .gallery-header {
+		text-align: center;
+		padding: 50px 0px 50px 0px;
+		margin-bottom: 0px;
+	} */
+	/* Slide Photos */
+	/* .carousel-item {
+		width: 535px !important;
+		border-radius: 2%
+	}
+	.carousel-inner {
+		padding: 0% 20% 0% 15%;
+	}
+
+
+} */
+
+@media (max-width: 492px) {
+	#service {
+		padding: 0% 0% 0% 0%;
+		width: 450px;
+    padding-left: 0px;
+	}
+  .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Optional: Centers the lists */
+  }
+
+  .col {
+      width: 100%; /* Makes each column take full width */
+      margin-bottom: 20px; /* Adds spacing between lists */
+	}
+
+	/* Store Section */
+	.our-store {
+    padding: 5% 0% 5% 0%;
+    height: 1000px;
+    background-color: red;
+    margin-top: 0px;
+	}
+	.store-img, .google-map {
+    width: 450px;
+    height: 320px;
+    position: relative;
+    padding-right: 0px;
+    margin-right: 0px;
+    right: 0px;
+    border-radius: 3%
+	}
+	/* Gallery Section*/
+	.carousel-inner {
+    padding: 0% 20% 5% 19%;
+	}
+	.carousel-item {
+		width: 300px !important;
+		border-radius: 2%;
+	}
